@@ -10,7 +10,9 @@ node_js:
   #- iojs-v3   
   #- 5.0          
 env:
-  - env=test1
+  global:
+    - env=test1
+    - verifying_env_which_is_too_long_for_and_check_wheather_we_display_the_env's_to_test=testing
      
 build:      
   ci:      
