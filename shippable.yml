@@ -19,6 +19,4 @@ build:
 
     - node --version
     - sudo docker ps -a
-    - sleep 2m
-
-
+    - sleep 1m
